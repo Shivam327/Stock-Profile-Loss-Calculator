@@ -7,12 +7,13 @@
 }
 
 :root {
-  --primary-color: #7c3aed;
+  --primary-color: #1e3163;
 }
 
 body {
   font-family: "Work Sans", sans-serif;
   text-align: center;
+  background-color: skyblue;
 }
 
 a {
@@ -65,6 +66,17 @@ header h1 {
   font-size: x-large;
   font-weight: 600;
   margin: 2rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+main {
+  width: 65%;
+  margin: 0 auto;
+  border: 5px var(--primary-color);
+  background-color: lightseagreen;
+  padding: 0.5rem 1rem;
+  border-radius: 2.5rem;
 }
 
 /* Footer */
