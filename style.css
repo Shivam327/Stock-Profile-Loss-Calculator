@@ -60,7 +60,7 @@ main {
 }
 
 .input {
-  font-size: large;
+  font-size: small;
   display: block;
   outline: #fff;
   padding: 0.6rem 1rem;
